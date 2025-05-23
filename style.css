@@ -1,0 +1,30 @@
+body{
+text-align:center;
+font-family: "Roboto", sans-serif;
+background-color:#fff8e1;
+padding-right:10px;
+padding-left:10px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+table{
+background-color:#fff8e1;
+width:100%;
+border:solid 1px #000000;
+border-collapse: collapse; /* 枠線を1本にまとめる */
+}
+
+tr{
+text-align:left;
+}
+
+tr:nth-child(odd) {
+      background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #333; /* 黒っぽい枠線 */
+    padding: 8px;
+    text-align: left;
+}
